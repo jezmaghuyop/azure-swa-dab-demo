@@ -17,7 +17,7 @@ export class NavigationComponent implements OnInit {
 
   ngOnInit(): void {
     this.authService.getAuthInfo().subscribe((authInfo) => {
-      if (authInfo && authInfo.clientPrincipal) {
+      if (authInfo && authInfo.clientPrincipal !== null) {
         this.isAuthenticated = true;
       } else {
         this.isAuthenticated = false;
