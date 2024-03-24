@@ -1,7 +1,7 @@
 {
   "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
   "configurations": {
-    "swa-dab-demo": {
+    "swa-dab-demo": {      
       "appLocation": ".",
       "outputLocation": "dist\\swa-dab-demo",
       "appBuildCommand": "npm run build",
