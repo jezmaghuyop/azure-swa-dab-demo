@@ -18,7 +18,7 @@ type Context = {
   providers: [ProductService, CartService],
 })
 export class AppComponent implements OnInit {
-  private readonly productService: ProductService = inject(ProductService);
+  private readonly productService: ProductService = inject(ProductService);  
   private readonly cartService: CartService = inject(CartService);
 
   context: Context = {
