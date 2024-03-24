@@ -30,12 +30,12 @@
     }
   },
   "entities": {
-    "Products": {
+    "products": {
       "source": "dbo.Products",
       "permissions": [
         {
-          "role": "anonymous",
-          "actions": ["*"]
+          "actions": ["*"],
+          "role": "anonymous"
         }
       ]
     }
